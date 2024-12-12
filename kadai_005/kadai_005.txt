@@ -1,0 +1,2 @@
+13b285e (HEAD -> main) 日本語訳を追記
+69cc767 hello_world.txt.pagesを追加
