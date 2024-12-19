@@ -1,0 +1,46 @@
+asaharakatsuya@asaharakatsuyanoMacBook-Air ~ % git diff /Users/asaharakatsuya/Desktop/git_challenge/hello_world.pages
+asaharakatsuya@asaharakatsuyanoMacBook-Air ~ % cd /Users/asaharakatsuya/Desktop/git_challenge
+asaharakatsuya@asaharakatsuyanoMacBook-Air git_challenge % git add /Users/asaharakatsuya/Desktop/git_challenge/hello_world.pages
+asaharakatsuya@asaharakatsuyanoMacBook-Air git_challenge % git commit -m "hello_world.txtを追加"
+
+[main 2d0a3fa] hello_world.txtを追加
+ Committer: 浅原克哉 <asaharakatsuya@asaharakatsuyanoMacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+asaharakatsuya@asaharakatsuyanoMacBook-Air git_challenge % git add /Users/asaharakatsuya/Desktop/git_challenge/hello_world.pages
+asaharakatsuya@asaharakatsuyanoMacBook-Air git_challenge % git commit -m "日本語訳を追記"       
+
+[main 873e4c1] 日本語訳を追記
+ Committer: 浅原克哉 <asaharakatsuya@asaharakatsuyanoMacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+asaharakatsuya@asaharakatsuyanoMacBook-Air git_challenge % git log --oneline
+873e4c1 (HEAD -> main) 日本語訳を追記
+2d0a3fa hello_world.txtを追加
+8083000 日本語訳を追記
+d5237df hello_world.txtを追加
+39f3aca hello_world.txtを追加
+13b285e 日本語訳を追記
+69cc767 hello_world.txt.pagesを追加
+563d494 Hello,world！
+91553a9 こんにちは、世界！
